@@ -1,0 +1,17 @@
+{
+    "name": "eecli/cowsay",
+    "description": "Add a cowsay command to eecli.",
+    "authors": [
+        {
+            "name": "Rob Sanchez",
+            "email": "info@robsanchez.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "eecli\\Cowsay\\": "system/expressionengine/third_party/src/" },
+        "files": ["system/expressionengine/third_party/src/register.php"]
+    },
+    "require": {
+        "illuminate/console": "~4.2"
+    }
+}
