@@ -8,8 +8,8 @@
         }
     ],
     "autoload": {
-        "psr-4": { "eecli\\Cowsay\\": "system/expressionengine/third_party/src/" },
-        "files": ["system/expressionengine/third_party/src/register.php"]
+        "psr-4": { "eecli\\Cowsay\\": "system/expressionengine/third_party/cowsay/src/" },
+        "files": ["system/expressionengine/third_party/cowsay/src/register.php"]
     },
     "require": {
         "illuminate/console": "~4.2"
